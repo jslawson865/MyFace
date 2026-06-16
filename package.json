@@ -1,0 +1,29 @@
+{
+  "name": "myface",
+  "version": "0.2.0",
+  "private": true,
+  "description": "Invite-gated retro social platform with patronage, reputation, self-hostable nodes, and future federation.",
+  "type": "module",
+  "packageManager": "pnpm@9.15.0",
+  "scripts": {
+    "dev": "pnpm -r --parallel dev",
+    "build": "pnpm -r build",
+    "test": "pnpm -r test",
+    "lint": "pnpm -r lint",
+    "typecheck": "pnpm -r typecheck",
+    "db:generate": "pnpm --filter @myface/db db:generate",
+    "db:migrate": "pnpm --filter @myface/db db:migrate",
+    "db:seed": "pnpm --filter @myface/db db:seed",
+    "bootstrap:node": "tsx scripts/bootstrap-node.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2",
+    "vitest": "^2.1.8"
+  },
+  "engines": {
+    "node": ">=20.18.0",
+    "pnpm": ">=9.0.0"
+  }
+}
