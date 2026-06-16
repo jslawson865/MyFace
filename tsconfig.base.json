@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "lib": ["ES2022", "DOM", "DOM.Iterable"],
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "allowJs": false,
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "exactOptionalPropertyTypes": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "baseUrl": ".",
+    "paths": {
+      "@myface/auth": ["packages/auth/src/index.ts"],
+      "@myface/db": ["packages/db/src/index.ts"],
+      "@myface/federation": ["packages/federation/src/index.ts"],
+      "@myface/identity": ["packages/identity/src/index.ts"],
+      "@myface/invites": ["packages/invites/src/index.ts"],
+      "@myface/patronage": ["packages/patronage/src/index.ts"],
+      "@myface/permissions": ["packages/permissions/src/index.ts"],
+      "@myface/reputation": ["packages/reputation/src/index.ts"],
+      "@myface/ui": ["packages/ui/src/index.ts"]
+    }
+  }
+}
