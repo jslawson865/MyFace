@@ -17,7 +17,9 @@ jobs:
         with:
           node-version: 20
           cache: pnpm
-      - run: pnpm install --frozen-lockfile
+      # Temporary baseline behavior: no pnpm-lock.yaml exists yet.
+      # After the first successful local install, commit pnpm-lock.yaml and switch this back to --frozen-lockfile.
+      - run: pnpm install --no-frozen-lockfile
       - run: pnpm typecheck
       - run: pnpm lint
       - run: pnpm test
