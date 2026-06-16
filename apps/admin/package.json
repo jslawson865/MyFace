@@ -1,0 +1,17 @@
+{
+  "name": "@myface/admin",
+  "version": "0.2.0",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "echo admin app placeholder",
+    "build": "tsc --noEmit",
+    "typecheck": "tsc --noEmit",
+    "lint": "echo admin lint placeholder",
+    "test": "vitest run --passWithNoTests"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.2",
+    "vitest": "^2.1.8"
+  }
+}
