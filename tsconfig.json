@@ -1,0 +1,18 @@
+{
+  "files": [],
+  "references": [
+    { "path": "apps/admin" },
+    { "path": "apps/api" },
+    { "path": "apps/web" },
+    { "path": "apps/worker" },
+    { "path": "packages/auth" },
+    { "path": "packages/db" },
+    { "path": "packages/federation" },
+    { "path": "packages/identity" },
+    { "path": "packages/invites" },
+    { "path": "packages/patronage" },
+    { "path": "packages/permissions" },
+    { "path": "packages/reputation" },
+    { "path": "packages/ui" }
+  ]
+}
